@@ -1,7 +1,9 @@
+type MemberRole = "Web" | "Spring";
+
 type StudyMember = {
   id: number;
   name: string;
-  role: string;
+  role: MemberRole;
   githubId?: string;
 };
 
